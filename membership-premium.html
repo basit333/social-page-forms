@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+
+    <section class="premium__membership">
+      <div class="premium__membership--banner">
+        <p class="premium__membership--banner--text">A Payment Gateway must be set up before any payments will be
+          processed.</p>
+      </div>
+      <div class="premium__membership--top-content">
+        <div class="premium__membership--title-box">
+          <h1 class="premium__membership--title">Membership Level</h1>
+          <a href="./membership.html" class="premium__membership--change-btn">change</a>
+        </div>
+        <p class="premium__membership--subtext">
+          You have selected the <span class="membership-text-bold">Premium</span> membership level.
+          The price for membership is <span class="membership-text-bold">$99.00</span> now.
+        </p>
+      </div>
+      <div class="premium__membership--form-wrapper">
+        <h1 class="premium__membership--form-title">Account Information</h1>
+        <form action="#" class="premium__membership--form">
+
+          <label for="firstname" class="premium__membership--form-label">First Name</label>
+          <input type="text" name="name" id="firstname" class="premium__membership--form-input">
+
+          <label for="lastname" class="premium__membership--form-label">Last Name</label>
+          <input type="text" name="name" id="lastname" class="premium__membership--form-input">
+
+          <label for="email" class="premium__membership--form-label">Email Address</label>
+          <input type="email" name="email" id="email" class="premium__membership--form-input">
+
+          <label for="title" class="premium__membership--form-label">Title</label>
+          <input type="text" name="title" id="title" class="premium__membership--form-input">
+
+          <label for="companyname" class="premium__membership--form-label">Company Name</label>
+          <input type="text" name="companyname" id="companyname" class="premium__membership--form-input">
+
+          <label for="url" class="premium__membership--form-label">
+            Linkedin Profile URL</label>
+          <input type="url" name="url" id="url" class="premium__membership--form-input">
+
+          <label for="timezone" class="premium__membership--form-label">Time Zone</label>
+          <input type="time" name="timezone" id="timezone" class="premium__membership--form-input">
+
+          <label for="expertise" class="premium__membership--form-label">Expertise</label>
+          <select class="premium__membership--form-input premium__membership--form-select" id="expertise">
+            <option value="" class="premium__member-form-option">Expertise 1</option>
+            <option value="" class="premium__member-form-option">Expertise 2</option>
+            <option value="" class="premium__member-form-option">Expertise 3</option>
+            <option value="" class="premium__member-form-option">Expertise 4</option>
+            <option value="" class="premium__member-form-option">Expertise 5</option>
+          </select>
+
+          <label for="workexperience" class="premium__membership--form-label">Work Experience</label>
+          <select class="premium__membership--form-input premium__membership--form-select" id="workexperience">
+            <option value="" class="premium__member-form-option">1-5yrs</option>
+            <option value="" class="premium__member-form-option">5-10yrs</option>
+            <option value="" class="premium__member-form-option">10+yrs</option>
+          </select>
+
+          <label for="reffered" class="premium__membership--form-label">Who referred you to Row?</label>
+          <input type="text" name="reffered" id="reffered" class="premium__membership--form-input">
+
+          <label for="communityinvolvement" class="premium__membership--form-label">Community involvement</label>
+          <select class="premium__membership--form-input premium__membership--form-select" id="communityinvolvement">
+            <option value="" class="premium__membership--form-option">Community 1</option>
+            <option value="" class="premium__membership--form-option">Community 2</option>
+            <option value="" class="premium__membership--form-option">Community 3</option>
+            <option value="" class="premium__membership--form-option">Community 4</option>
+            <option value="" class="premium__membership--form-option">Community 5</option>
+          </select>
+
+          <div class="premium__payment">
+            <div class="premium__payment--title-box">
+              <h1 class="premium__payment--title">Payment Information</h1>
+              <p class="premium__payment--subtext">We Accept Visa, Mastercard, American Express, and Discover</p>
+            </div>
+
+            <label for="cardnumber" class="premium__membership--form-label">Card Number</label>
+            <input type="number" name="cardnumber" id="cardnumber" class="premium__membership--form-input">
+
+            <div class="premium__payment--card-expire">
+              <label for="expirationdate" class="premium__membership--form-label">Expiration Date</label>
+              <div class="premium__payment--card-expire-box">
+                <select class="premium__payment--card-expire-select">
+                  <option value="" class="premium__payment--card-expire-option">01</option>
+                  <option value="" class="premium__payment--card-expire-option">02</option>
+                  <option value="" class="premium__payment--card-expire-option">03</option>
+                  <option value="" class="premium__payment--card-expire-option">04</option>
+                  <option value="" class="premium__payment--card-expire-option">05</option>
+                  <option value="" class="premium__payment--card-expire-option">06</option>
+                  <option value="" class="premium__payment--card-expire-option">07</option>
+                  <option value="" class="premium__payment--card-expire-option">08</option>
+                  <option value="" class="premium__payment--card-expire-option">09</option>
+                  <option value="" class="premium__payment--card-expire-option">10</option>
+                  <option value="" class="premium__payment--card-expire-option">11</option>
+                  <option value="" class="premium__payment--card-expire-option">12</option>
+                </select>
+                <span class="premium__payment--card-expire-split">/</span>
+                <select class="premium__payment--card-expire-select">
+                  <option value="" class="premium__payment--card-expire-option">2023</option>
+                  <option value="" class="premium__payment--card-expire-option">2024</option>
+                  <option value="" class="premium__payment--card-expire-option">2025</option>
+                  <option value="" class="premium__payment--card-expire-option">2026</option>
+                  <option value="" class="premium__payment--card-expire-option">2027</option>
+                  <option value="" class="premium__payment--card-expire-option">2028</option>
+                  <option value="" class="premium__payment--card-expire-option">2029</option>
+                  <option value="" class="premium__payment--card-expire-option">2030</option>
+                  <option value="" class="premium__payment--card-expire-option">2031</option>
+                  <option value="" class="premium__payment--card-expire-option">2032</option>
+                </select>
+              </div>
+
+              <label for="cardcvc" class="premium__membership--form-label">Security Code (CVC)</label>
+              <input type="number" name="cardcvc" id="cardcvc"
+                class="premium__membership--form-input premium__payment--card-expire-cvc">
+            </div>
+          </div>
+
+          <div class="premium__membership--banner">
+            <p class="premium__membership--banner--text">A Payment Gateway must be set up before any payments will be
+              processed.</p>
+          </div>
+
+          <button type="submit" class="premium__membership--form-submit-btn">
+            Submit & Confirm
+            <span class="premium__membership--form-submit-btn-img"> >> </span>
+          </button>
+
+        </form>
+      </div>
+    </section>
+
+
+  </body>
+
+</html>
